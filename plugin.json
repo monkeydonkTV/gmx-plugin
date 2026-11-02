@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "gmx-plugin",
+  "version": "0.1.7",
+  "description": "Lokale GMX-Mailanbindung mit Suche, Lesen, Antworten, Weiterleiten und SMTP-Versand.",
+  "license": "MIT",
+  "extensions": {"com.openai": {"interface": {
+    "displayName": "GMX Plugin", "shortDescription": "GMX lesen und E-Mails senden",
+    "longDescription": "GMX in Codex unter Windows: E-Mails suchen, lesen, beantworten und auf eigenen Auftrag versenden. Eigenes Konto lokal einrichten.",
+    "developerName": "monkeydonkTV", "category": "Productivity", "capabilities": ["Read", "Write"],
+    "defaultPrompt": "Zeige meine neuesten GMX-E-Mails."
+  }}}
+}

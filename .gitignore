@@ -1,0 +1,42 @@
+# Local dependencies and output
+node_modules/
+dist/
+.build/
+coverage/
+.nyc_output/
+
+# Local settings, credentials and runtime state
+.env
+.env.*
+.imap-mcp/
+.codex/
+**/accounts.json
+**/.key
+**/integration-state.json
+.mcpregistry_github_token
+.mcpregistry_registry_token
+*.key
+*.pem
+*.pfx
+*.p12
+
+# Test fixtures and local diagnostics
+.gmx-*/
+.synthetic-*
+logs/
+*.log
+tmp/
+temp/
+*.tmp
+
+# Binary downloads are GitHub release assets
+*.exe
+*.zip
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
