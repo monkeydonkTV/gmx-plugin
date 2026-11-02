@@ -1,0 +1,15 @@
+GMX Plugin für Windows
+
+1. Installieren.
+2. Im anschließenden Fenster die eigene GMX-Adresse und das eigene App-Passwort eingeben.
+3. Speichern und prüfen. Danach Codex neu laden.
+
+Codex muss bereits auf diesem PC installiert und mit deinem eigenen Konto angemeldet sein. Das Plugin benötigt keine separate Node.js-Installation. Für GMX muss der Zugriff über IMAP freigegeben sein.
+
+Die Einrichtung kannst du jederzeit über das Startmenü unter „GMX-Konto einrichten“ erneut öffnen. Ohne Internet kann das Konto gespeichert, aber noch nicht mit GMX geprüft werden.
+
+Es wird kein Konto mitgeliefert. Deine Adresse und Einstellungen liegen nur in deiner lokalen Kontoablage. Dein Kennwort wird dort verschlüsselt gespeichert; Schlüssel und Kontodatei sind durch Windows-Zugriffsrechte geschützt. Programme unter deinem Windows-Benutzer können grundsätzlich auf diese Daten zugreifen. Heruntergeladene Anhänge sind nicht verschlüsselt. Mailinhalte, die du mit Codex abrufst, werden an den verbundenen KI-Dienst übergeben.
+
+Beim Entfernen des Plugins über Windows „Installierte Apps“ bleiben deine GMX-Kontodaten und eigenen Dateien erhalten. Bitte Codex und das Einrichtungsfenster vorher schließen. Wenn du auch Codex deinstallieren möchtest, entferne zuerst das GMX Plugin: Seine Verbindung wird über Codex abgemeldet. Es werden keine E-Mails gelöscht.
+
+Dies ist ein privates, unabhängiges Projekt und kein offizielles Produkt von GMX oder OpenAI. Das Setup ist nicht digital signiert; Windows kann deshalb einen unbekannten Herausgeber anzeigen. Prüfe vor dem Start die Herkunft der Datei. Es werden keine Schutzfunktionen abgeschaltet.

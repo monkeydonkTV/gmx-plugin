@@ -1,0 +1,11 @@
+{
+  "version": "24.22.2",
+  "platform": "win-x64",
+  "url": "https://nodejs.org/dist/v24.22.2/node-v24.22.2-win-x64.zip",
+  "checksumsUrl": "https://nodejs.org/dist/v24.22.2/SHASUMS256.txt",
+  "archiveSha256": "CA1BFF5D8EAD13C9F2EA404A176DB46BD430704D5B5113734049FA365E7799E2",
+  "nodeSha256": "1C331340FA6CAC5E4294725959070A143FA0507195A78AD77EED7943F719AAC9",
+  "licenseSha256": "ED34DD8E3F0A78DBAF00D0444CE8E285B015B765379C2E17880455F70370F8E9",
+  "verifiedPublisher": "OpenJS Foundation",
+  "verifiedDate": "2026-11-02"
+}
